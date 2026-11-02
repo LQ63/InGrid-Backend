@@ -1,0 +1,1791 @@
+{
+  "terms": [
+    {
+      "id": "ws2026",
+      "name": "WiSe 2026/27",
+      "startDate": "2026-10-01",
+      "endDate": "2027-03-31"
+    },
+    {
+      "id": "ss2027",
+      "name": "SoSe 2027",
+      "startDate": "2027-04-01",
+      "endDate": "2027-09-30"
+    }
+  ],
+  "timeslots": [
+    {
+      "slot": 0,
+      "start": "08:00",
+      "end": "09:30"
+    },
+    {
+      "slot": 1,
+      "start": "09:45",
+      "end": "11:15"
+    },
+    {
+      "slot": 2,
+      "start": "11:30",
+      "end": "13:00"
+    },
+    {
+      "slot": 3,
+      "start": "14:00",
+      "end": "15:30"
+    },
+    {
+      "slot": 4,
+      "start": "15:45",
+      "end": "17:15"
+    },
+    {
+      "slot": 5,
+      "start": "17:30",
+      "end": "19:00"
+    }
+  ],
+  "programs": [
+    {
+      "id": "inf",
+      "name": "Informatik B.Sc.",
+      "abbreviation": "INF"
+    },
+    {
+      "id": "winf",
+      "name": "Wirtschaftsinformatik B.Sc.",
+      "abbreviation": "WINF"
+    },
+    {
+      "id": "ds",
+      "name": "Data Science M.Sc.",
+      "abbreviation": "DS"
+    }
+  ],
+  "stats": {
+    "rooms": 13,
+    "lecturers": 8,
+    "cohorts": 6,
+    "plansInProgress": 3
+  },
+  "rooms": [
+    {
+      "id": "c-0.01",
+      "name": "C 0.01",
+      "building": "C",
+      "type": "lecture_hall",
+      "capacity": 400,
+      "equipment": [
+        "Beamer",
+        "Mikrofon",
+        "Aufzeichnung"
+      ],
+      "usedSlots": 3,
+      "totalSlots": 30
+    },
+    {
+      "id": "a-1.01",
+      "name": "A 1.01",
+      "building": "A",
+      "type": "lecture_hall",
+      "capacity": 250,
+      "equipment": [
+        "Beamer",
+        "Mikrofon"
+      ],
+      "usedSlots": 2,
+      "totalSlots": 30
+    },
+    {
+      "id": "a-1.02",
+      "name": "A 1.02",
+      "building": "A",
+      "type": "lecture_hall",
+      "capacity": 150,
+      "equipment": [
+        "Beamer",
+        "Mikrofon"
+      ],
+      "usedSlots": 5,
+      "totalSlots": 30
+    },
+    {
+      "id": "c-1.10",
+      "name": "C 1.10",
+      "building": "C",
+      "type": "lecture_hall",
+      "capacity": 120,
+      "equipment": [
+        "Beamer",
+        "Mikrofon",
+        "Aufzeichnung"
+      ],
+      "usedSlots": 1,
+      "totalSlots": 30
+    },
+    {
+      "id": "c-3.01",
+      "name": "C 3.01",
+      "building": "C",
+      "type": "seminar_room",
+      "capacity": 60,
+      "equipment": [
+        "Beamer",
+        "Mikrofon"
+      ],
+      "usedSlots": 2,
+      "totalSlots": 30
+    },
+    {
+      "id": "c-3.02",
+      "name": "C 3.02",
+      "building": "C",
+      "type": "seminar_room",
+      "capacity": 45,
+      "equipment": [
+        "Beamer"
+      ],
+      "usedSlots": 1,
+      "totalSlots": 30
+    },
+    {
+      "id": "a-2.14",
+      "name": "A 2.14",
+      "building": "A",
+      "type": "seminar_room",
+      "capacity": 40,
+      "equipment": [
+        "Beamer",
+        "Whiteboard"
+      ],
+      "usedSlots": 1,
+      "totalSlots": 30
+    },
+    {
+      "id": "a-2.15",
+      "name": "A 2.15",
+      "building": "A",
+      "type": "seminar_room",
+      "capacity": 30,
+      "equipment": [
+        "Display",
+        "Whiteboard"
+      ],
+      "usedSlots": 0,
+      "totalSlots": 30
+    },
+    {
+      "id": "a-2.16",
+      "name": "A 2.16",
+      "building": "A",
+      "type": "seminar_room",
+      "capacity": 24,
+      "equipment": [
+        "Whiteboard"
+      ],
+      "usedSlots": 1,
+      "totalSlots": 30
+    },
+    {
+      "id": "b-0.08",
+      "name": "B 0.08",
+      "building": "B",
+      "type": "pc_pool",
+      "capacity": 36,
+      "equipment": [
+        "36 PCs",
+        "Beamer"
+      ],
+      "usedSlots": 1,
+      "totalSlots": 30
+    },
+    {
+      "id": "b-0.09",
+      "name": "B 0.09",
+      "building": "B",
+      "type": "pc_pool",
+      "capacity": 24,
+      "equipment": [
+        "24 PCs",
+        "Display"
+      ],
+      "usedSlots": 1,
+      "totalSlots": 30
+    },
+    {
+      "id": "b-1.20",
+      "name": "B 1.20",
+      "building": "B",
+      "type": "lab",
+      "capacity": 20,
+      "equipment": [
+        "Netzwerklabor"
+      ],
+      "usedSlots": 1,
+      "totalSlots": 30
+    },
+    {
+      "id": "b-1.21",
+      "name": "B 1.21",
+      "building": "B",
+      "type": "lab",
+      "capacity": 16,
+      "equipment": [
+        "Elektroniklabor"
+      ],
+      "usedSlots": 1,
+      "totalSlots": 30
+    }
+  ],
+  "lecturers": [
+    {
+      "id": "becker",
+      "name": "Prof. Dr. Anna Becker",
+      "shortName": "Becker",
+      "department": "Informatik",
+      "unavailable": [
+        {
+          "day": 4,
+          "slot": 3
+        },
+        {
+          "day": 4,
+          "slot": 4
+        },
+        {
+          "day": 4,
+          "slot": 5
+        }
+      ],
+      "eventCount": 3
+    },
+    {
+      "id": "hartmann",
+      "name": "Prof. Dr. Jonas Hartmann",
+      "shortName": "Hartmann",
+      "department": "Wirtschaftsinformatik",
+      "unavailable": [
+        {
+          "day": 0,
+          "slot": 0
+        },
+        {
+          "day": 0,
+          "slot": 1
+        }
+      ],
+      "eventCount": 3
+    },
+    {
+      "id": "yilmaz",
+      "name": "Prof. Dr. Miriam Yilmaz",
+      "shortName": "Yilmaz",
+      "department": "Informatik",
+      "unavailable": [
+        {
+          "day": 2,
+          "slot": 0
+        },
+        {
+          "day": 2,
+          "slot": 1
+        },
+        {
+          "day": 2,
+          "slot": 2
+        }
+      ],
+      "eventCount": 3
+    },
+    {
+      "id": "krueger",
+      "name": "Prof. Dr. Thomas Krüger",
+      "shortName": "Krüger",
+      "department": "Informatik",
+      "unavailable": [
+        {
+          "day": 1,
+          "slot": 4
+        },
+        {
+          "day": 1,
+          "slot": 5
+        }
+      ],
+      "eventCount": 3
+    },
+    {
+      "id": "wolf",
+      "name": "Prof. Dr. Stefan Wolf",
+      "shortName": "Wolf",
+      "department": "Informatik",
+      "unavailable": [
+        {
+          "day": 3,
+          "slot": 2
+        },
+        {
+          "day": 3,
+          "slot": 3
+        }
+      ],
+      "eventCount": 2
+    },
+    {
+      "id": "neumann",
+      "name": "Prof. Dr. Sabine Neumann",
+      "shortName": "Neumann",
+      "department": "Mathematik",
+      "unavailable": [
+        {
+          "day": 4,
+          "slot": 0
+        },
+        {
+          "day": 4,
+          "slot": 1
+        },
+        {
+          "day": 4,
+          "slot": 2
+        }
+      ],
+      "eventCount": 4
+    },
+    {
+      "id": "vogt",
+      "name": "Dr. Lena Vogt",
+      "shortName": "Vogt",
+      "department": "Informatik",
+      "unavailable": [],
+      "eventCount": 5
+    },
+    {
+      "id": "braun",
+      "name": "Dr. Felix Braun",
+      "shortName": "Braun",
+      "department": "Wirtschaftsinformatik",
+      "unavailable": [
+        {
+          "day": 0,
+          "slot": 4
+        },
+        {
+          "day": 0,
+          "slot": 5
+        }
+      ],
+      "eventCount": 3
+    }
+  ],
+  "cohorts": [
+    {
+      "id": "inf1",
+      "program": {
+        "id": "inf",
+        "name": "Informatik B.Sc.",
+        "abbreviation": "INF"
+      },
+      "semester": 1,
+      "termId": "ws2026",
+      "students": 180,
+      "placedCount": 4,
+      "eventCount": 5,
+      "planId": null
+    },
+    {
+      "id": "inf3",
+      "program": {
+        "id": "inf",
+        "name": "Informatik B.Sc.",
+        "abbreviation": "INF"
+      },
+      "semester": 3,
+      "termId": "ws2026",
+      "students": 140,
+      "placedCount": 5,
+      "eventCount": 9,
+      "planId": "p1"
+    },
+    {
+      "id": "inf5",
+      "program": {
+        "id": "inf",
+        "name": "Informatik B.Sc.",
+        "abbreviation": "INF"
+      },
+      "semester": 5,
+      "termId": "ws2026",
+      "students": 110,
+      "placedCount": 3,
+      "eventCount": 4,
+      "planId": null
+    },
+    {
+      "id": "winf1",
+      "program": {
+        "id": "winf",
+        "name": "Wirtschaftsinformatik B.Sc.",
+        "abbreviation": "WINF"
+      },
+      "semester": 1,
+      "termId": "ws2026",
+      "students": 90,
+      "placedCount": 3,
+      "eventCount": 3,
+      "planId": "p2"
+    },
+    {
+      "id": "winf3",
+      "program": {
+        "id": "winf",
+        "name": "Wirtschaftsinformatik B.Sc.",
+        "abbreviation": "WINF"
+      },
+      "semester": 3,
+      "termId": "ws2026",
+      "students": 70,
+      "placedCount": 2,
+      "eventCount": 2,
+      "planId": null
+    },
+    {
+      "id": "ds1",
+      "program": {
+        "id": "ds",
+        "name": "Data Science M.Sc.",
+        "abbreviation": "DS"
+      },
+      "semester": 1,
+      "termId": "ws2026",
+      "students": 45,
+      "placedCount": 3,
+      "eventCount": 3,
+      "planId": "p3"
+    }
+  ],
+  "plans": [
+    {
+      "id": "p1",
+      "cohort": {
+        "id": "inf3",
+        "program": {
+          "id": "inf",
+          "name": "Informatik B.Sc.",
+          "abbreviation": "INF"
+        },
+        "semester": 3
+      },
+      "term": {
+        "id": "ws2026",
+        "name": "WiSe 2026/27"
+      },
+      "status": "in_progress",
+      "updatedAt": "2026-10-28T14:12:00+01:00",
+      "placedCount": 5,
+      "eventCount": 9,
+      "conflictCount": 1
+    },
+    {
+      "id": "p2",
+      "cohort": {
+        "id": "winf1",
+        "program": {
+          "id": "winf",
+          "name": "Wirtschaftsinformatik B.Sc.",
+          "abbreviation": "WINF"
+        },
+        "semester": 1
+      },
+      "term": {
+        "id": "ws2026",
+        "name": "WiSe 2026/27"
+      },
+      "status": "in_progress",
+      "updatedAt": "2026-10-27T09:40:00+01:00",
+      "placedCount": 3,
+      "eventCount": 3,
+      "conflictCount": 0
+    },
+    {
+      "id": "p3",
+      "cohort": {
+        "id": "ds1",
+        "program": {
+          "id": "ds",
+          "name": "Data Science M.Sc.",
+          "abbreviation": "DS"
+        },
+        "semester": 1
+      },
+      "term": {
+        "id": "ws2026",
+        "name": "WiSe 2026/27"
+      },
+      "status": "pending_approval",
+      "updatedAt": "2026-10-21T16:05:00+02:00",
+      "placedCount": 3,
+      "eventCount": 3,
+      "conflictCount": 0
+    }
+  ],
+  "events": [
+    {
+      "id": "e1",
+      "title": "Algorithmen und Datenstrukturen",
+      "type": "lecture",
+      "lecturer": {
+        "id": "becker",
+        "name": "Prof. Dr. Anna Becker",
+        "shortName": "Becker"
+      },
+      "cohortId": "inf3",
+      "expectedParticipants": 140,
+      "placement": {
+        "day": 0,
+        "slot": 1,
+        "roomId": "a-1.02"
+      },
+      "conflicts": []
+    },
+    {
+      "id": "e2",
+      "title": "Algorithmen und Datenstrukturen",
+      "type": "exercise",
+      "lecturer": {
+        "id": "vogt",
+        "name": "Dr. Lena Vogt",
+        "shortName": "Vogt"
+      },
+      "cohortId": "inf3",
+      "expectedParticipants": 35,
+      "placement": {
+        "day": 2,
+        "slot": 3,
+        "roomId": "a-2.14"
+      },
+      "conflicts": []
+    },
+    {
+      "id": "e3",
+      "title": "Datenbanksysteme",
+      "type": "lecture",
+      "lecturer": {
+        "id": "hartmann",
+        "name": "Prof. Dr. Jonas Hartmann",
+        "shortName": "Hartmann"
+      },
+      "cohortId": "inf3",
+      "expectedParticipants": 140,
+      "placement": {
+        "day": 1,
+        "slot": 1,
+        "roomId": "a-1.02"
+      },
+      "conflicts": []
+    },
+    {
+      "id": "e4",
+      "title": "Datenbanksysteme",
+      "type": "exercise",
+      "lecturer": {
+        "id": "vogt",
+        "name": "Dr. Lena Vogt",
+        "shortName": "Vogt"
+      },
+      "cohortId": "inf3",
+      "expectedParticipants": 35,
+      "placement": null,
+      "conflicts": []
+    },
+    {
+      "id": "e5",
+      "title": "Software Engineering",
+      "type": "lecture",
+      "lecturer": {
+        "id": "yilmaz",
+        "name": "Prof. Dr. Miriam Yilmaz",
+        "shortName": "Yilmaz"
+      },
+      "cohortId": "inf3",
+      "expectedParticipants": 140,
+      "placement": null,
+      "conflicts": []
+    },
+    {
+      "id": "e6",
+      "title": "Rechnernetze",
+      "type": "lecture",
+      "lecturer": {
+        "id": "krueger",
+        "name": "Prof. Dr. Thomas Krüger",
+        "shortName": "Krüger"
+      },
+      "cohortId": "inf3",
+      "expectedParticipants": 140,
+      "placement": {
+        "day": 3,
+        "slot": 0,
+        "roomId": "a-1.01"
+      },
+      "conflicts": []
+    },
+    {
+      "id": "e7",
+      "title": "Rechnernetze",
+      "type": "lab",
+      "lecturer": {
+        "id": "braun",
+        "name": "Dr. Felix Braun",
+        "shortName": "Braun"
+      },
+      "cohortId": "inf3",
+      "expectedParticipants": 20,
+      "placement": null,
+      "conflicts": []
+    },
+    {
+      "id": "e8",
+      "title": "Theoretische Informatik",
+      "type": "lecture",
+      "lecturer": {
+        "id": "wolf",
+        "name": "Prof. Dr. Stefan Wolf",
+        "shortName": "Wolf"
+      },
+      "cohortId": "inf3",
+      "expectedParticipants": 140,
+      "placement": {
+        "day": 3,
+        "slot": 2,
+        "roomId": "a-1.02"
+      },
+      "conflicts": [
+        {
+          "code": "LECTURER_UNAVAILABLE",
+          "message": "Wolf ist Donnerstag 11:30–13:00 nicht verfügbar",
+          "relatedEventId": null
+        }
+      ]
+    },
+    {
+      "id": "e9",
+      "title": "Theoretische Informatik",
+      "type": "exercise",
+      "lecturer": {
+        "id": "vogt",
+        "name": "Dr. Lena Vogt",
+        "shortName": "Vogt"
+      },
+      "cohortId": "inf3",
+      "expectedParticipants": 35,
+      "placement": null,
+      "conflicts": []
+    },
+    {
+      "id": "e10",
+      "title": "Einführung in die Programmierung",
+      "type": "lecture",
+      "lecturer": {
+        "id": "becker",
+        "name": "Prof. Dr. Anna Becker",
+        "shortName": "Becker"
+      },
+      "cohortId": "inf1",
+      "expectedParticipants": 180,
+      "placement": {
+        "day": 0,
+        "slot": 0,
+        "roomId": "c-0.01"
+      },
+      "conflicts": []
+    },
+    {
+      "id": "e11",
+      "title": "Mathematik I",
+      "type": "lecture",
+      "lecturer": {
+        "id": "neumann",
+        "name": "Prof. Dr. Sabine Neumann",
+        "shortName": "Neumann"
+      },
+      "cohortId": "inf1",
+      "expectedParticipants": 180,
+      "placement": {
+        "day": 1,
+        "slot": 0,
+        "roomId": "c-0.01"
+      },
+      "conflicts": []
+    },
+    {
+      "id": "e12",
+      "title": "Programmierung",
+      "type": "exercise",
+      "lecturer": {
+        "id": "vogt",
+        "name": "Dr. Lena Vogt",
+        "shortName": "Vogt"
+      },
+      "cohortId": "inf1",
+      "expectedParticipants": 36,
+      "placement": {
+        "day": 2,
+        "slot": 1,
+        "roomId": "b-0.08"
+      },
+      "conflicts": []
+    },
+    {
+      "id": "e13",
+      "title": "Technische Informatik",
+      "type": "lecture",
+      "lecturer": {
+        "id": "krueger",
+        "name": "Prof. Dr. Thomas Krüger",
+        "shortName": "Krüger"
+      },
+      "cohortId": "inf1",
+      "expectedParticipants": 180,
+      "placement": {
+        "day": 2,
+        "slot": 0,
+        "roomId": "c-0.01"
+      },
+      "conflicts": []
+    },
+    {
+      "id": "e14",
+      "title": "Mathematik I",
+      "type": "exercise",
+      "lecturer": {
+        "id": "braun",
+        "name": "Dr. Felix Braun",
+        "shortName": "Braun"
+      },
+      "cohortId": "inf1",
+      "expectedParticipants": 40,
+      "placement": null,
+      "conflicts": []
+    },
+    {
+      "id": "e15",
+      "title": "Künstliche Intelligenz",
+      "type": "lecture",
+      "lecturer": {
+        "id": "yilmaz",
+        "name": "Prof. Dr. Miriam Yilmaz",
+        "shortName": "Yilmaz"
+      },
+      "cohortId": "inf5",
+      "expectedParticipants": 110,
+      "placement": {
+        "day": 0,
+        "slot": 3,
+        "roomId": "a-1.02"
+      },
+      "conflicts": []
+    },
+    {
+      "id": "e16",
+      "title": "IT-Sicherheit",
+      "type": "lecture",
+      "lecturer": {
+        "id": "wolf",
+        "name": "Prof. Dr. Stefan Wolf",
+        "shortName": "Wolf"
+      },
+      "cohortId": "inf5",
+      "expectedParticipants": 110,
+      "placement": {
+        "day": 1,
+        "slot": 2,
+        "roomId": "c-1.10"
+      },
+      "conflicts": []
+    },
+    {
+      "id": "e17",
+      "title": "Projektseminar",
+      "type": "seminar",
+      "lecturer": {
+        "id": "hartmann",
+        "name": "Prof. Dr. Jonas Hartmann",
+        "shortName": "Hartmann"
+      },
+      "cohortId": "inf5",
+      "expectedParticipants": 24,
+      "placement": {
+        "day": 4,
+        "slot": 1,
+        "roomId": "a-2.16"
+      },
+      "conflicts": []
+    },
+    {
+      "id": "e18",
+      "title": "Compilerbau",
+      "type": "lecture",
+      "lecturer": {
+        "id": "becker",
+        "name": "Prof. Dr. Anna Becker",
+        "shortName": "Becker"
+      },
+      "cohortId": "inf5",
+      "expectedParticipants": 60,
+      "placement": null,
+      "conflicts": []
+    },
+    {
+      "id": "e19",
+      "title": "Grundlagen der BWL",
+      "type": "lecture",
+      "lecturer": {
+        "id": "neumann",
+        "name": "Prof. Dr. Sabine Neumann",
+        "shortName": "Neumann"
+      },
+      "cohortId": "winf1",
+      "expectedParticipants": 90,
+      "placement": {
+        "day": 0,
+        "slot": 2,
+        "roomId": "a-1.01"
+      },
+      "conflicts": []
+    },
+    {
+      "id": "e20",
+      "title": "Wirtschaftsinformatik I",
+      "type": "lecture",
+      "lecturer": {
+        "id": "hartmann",
+        "name": "Prof. Dr. Jonas Hartmann",
+        "shortName": "Hartmann"
+      },
+      "cohortId": "winf1",
+      "expectedParticipants": 90,
+      "placement": {
+        "day": 3,
+        "slot": 1,
+        "roomId": "a-1.02"
+      },
+      "conflicts": []
+    },
+    {
+      "id": "e21",
+      "title": "Programmierung",
+      "type": "exercise",
+      "lecturer": {
+        "id": "vogt",
+        "name": "Dr. Lena Vogt",
+        "shortName": "Vogt"
+      },
+      "cohortId": "winf1",
+      "expectedParticipants": 24,
+      "placement": {
+        "day": 1,
+        "slot": 3,
+        "roomId": "b-0.09"
+      },
+      "conflicts": []
+    },
+    {
+      "id": "e22",
+      "title": "Geschäftsprozessmanagement",
+      "type": "lecture",
+      "lecturer": {
+        "id": "neumann",
+        "name": "Prof. Dr. Sabine Neumann",
+        "shortName": "Neumann"
+      },
+      "cohortId": "winf3",
+      "expectedParticipants": 70,
+      "placement": {
+        "day": 2,
+        "slot": 2,
+        "roomId": "c-3.01"
+      },
+      "conflicts": [
+        {
+          "code": "ROOM_TOO_SMALL",
+          "message": "Raum C 3.01 zu klein (60 Plätze, 70 TN)",
+          "relatedEventId": null
+        }
+      ]
+    },
+    {
+      "id": "e23",
+      "title": "ERP-Systeme",
+      "type": "lab",
+      "lecturer": {
+        "id": "braun",
+        "name": "Dr. Felix Braun",
+        "shortName": "Braun"
+      },
+      "cohortId": "winf3",
+      "expectedParticipants": 16,
+      "placement": {
+        "day": 4,
+        "slot": 3,
+        "roomId": "b-1.21"
+      },
+      "conflicts": []
+    },
+    {
+      "id": "e24",
+      "title": "Machine Learning",
+      "type": "lecture",
+      "lecturer": {
+        "id": "yilmaz",
+        "name": "Prof. Dr. Miriam Yilmaz",
+        "shortName": "Yilmaz"
+      },
+      "cohortId": "ds1",
+      "expectedParticipants": 45,
+      "placement": {
+        "day": 1,
+        "slot": 1,
+        "roomId": "c-3.01"
+      },
+      "conflicts": []
+    },
+    {
+      "id": "e25",
+      "title": "Statistik",
+      "type": "lecture",
+      "lecturer": {
+        "id": "neumann",
+        "name": "Prof. Dr. Sabine Neumann",
+        "shortName": "Neumann"
+      },
+      "cohortId": "ds1",
+      "expectedParticipants": 45,
+      "placement": {
+        "day": 3,
+        "slot": 3,
+        "roomId": "c-3.02"
+      },
+      "conflicts": []
+    },
+    {
+      "id": "e26",
+      "title": "Big Data",
+      "type": "lab",
+      "lecturer": {
+        "id": "krueger",
+        "name": "Prof. Dr. Thomas Krüger",
+        "shortName": "Krüger"
+      },
+      "cohortId": "ds1",
+      "expectedParticipants": 20,
+      "placement": {
+        "day": 4,
+        "slot": 2,
+        "roomId": "b-1.20"
+      },
+      "conflicts": []
+    }
+  ],
+  "responses": {
+    "GET /rooms/a-1.02/schedule?termId=ws2026": {
+      "entries": [
+        {
+          "eventId": "e1",
+          "title": "Algorithmen und Datenstrukturen",
+          "type": "lecture",
+          "day": 0,
+          "slot": 1,
+          "roomId": "a-1.02",
+          "lecturer": {
+            "id": "becker",
+            "name": "Prof. Dr. Anna Becker",
+            "shortName": "Becker"
+          },
+          "cohort": {
+            "id": "inf3",
+            "program": {
+              "id": "inf",
+              "name": "Informatik B.Sc.",
+              "abbreviation": "INF"
+            },
+            "semester": 3
+          },
+          "conflicts": []
+        },
+        {
+          "eventId": "e3",
+          "title": "Datenbanksysteme",
+          "type": "lecture",
+          "day": 1,
+          "slot": 1,
+          "roomId": "a-1.02",
+          "lecturer": {
+            "id": "hartmann",
+            "name": "Prof. Dr. Jonas Hartmann",
+            "shortName": "Hartmann"
+          },
+          "cohort": {
+            "id": "inf3",
+            "program": {
+              "id": "inf",
+              "name": "Informatik B.Sc.",
+              "abbreviation": "INF"
+            },
+            "semester": 3
+          },
+          "conflicts": []
+        },
+        {
+          "eventId": "e8",
+          "title": "Theoretische Informatik",
+          "type": "lecture",
+          "day": 3,
+          "slot": 2,
+          "roomId": "a-1.02",
+          "lecturer": {
+            "id": "wolf",
+            "name": "Prof. Dr. Stefan Wolf",
+            "shortName": "Wolf"
+          },
+          "cohort": {
+            "id": "inf3",
+            "program": {
+              "id": "inf",
+              "name": "Informatik B.Sc.",
+              "abbreviation": "INF"
+            },
+            "semester": 3
+          },
+          "conflicts": [
+            {
+              "code": "LECTURER_UNAVAILABLE",
+              "message": "Wolf ist Donnerstag 11:30–13:00 nicht verfügbar",
+              "relatedEventId": null
+            }
+          ]
+        },
+        {
+          "eventId": "e15",
+          "title": "Künstliche Intelligenz",
+          "type": "lecture",
+          "day": 0,
+          "slot": 3,
+          "roomId": "a-1.02",
+          "lecturer": {
+            "id": "yilmaz",
+            "name": "Prof. Dr. Miriam Yilmaz",
+            "shortName": "Yilmaz"
+          },
+          "cohort": {
+            "id": "inf5",
+            "program": {
+              "id": "inf",
+              "name": "Informatik B.Sc.",
+              "abbreviation": "INF"
+            },
+            "semester": 5
+          },
+          "conflicts": []
+        },
+        {
+          "eventId": "e20",
+          "title": "Wirtschaftsinformatik I",
+          "type": "lecture",
+          "day": 3,
+          "slot": 1,
+          "roomId": "a-1.02",
+          "lecturer": {
+            "id": "hartmann",
+            "name": "Prof. Dr. Jonas Hartmann",
+            "shortName": "Hartmann"
+          },
+          "cohort": {
+            "id": "winf1",
+            "program": {
+              "id": "winf",
+              "name": "Wirtschaftsinformatik B.Sc.",
+              "abbreviation": "WINF"
+            },
+            "semester": 1
+          },
+          "conflicts": []
+        }
+      ]
+    },
+    "GET /lecturers/vogt/schedule?termId=ws2026": {
+      "entries": [
+        {
+          "eventId": "e2",
+          "title": "Algorithmen und Datenstrukturen",
+          "type": "exercise",
+          "day": 2,
+          "slot": 3,
+          "roomId": "a-2.14",
+          "lecturer": {
+            "id": "vogt",
+            "name": "Dr. Lena Vogt",
+            "shortName": "Vogt"
+          },
+          "cohort": {
+            "id": "inf3",
+            "program": {
+              "id": "inf",
+              "name": "Informatik B.Sc.",
+              "abbreviation": "INF"
+            },
+            "semester": 3
+          },
+          "conflicts": []
+        },
+        {
+          "eventId": "e12",
+          "title": "Programmierung",
+          "type": "exercise",
+          "day": 2,
+          "slot": 1,
+          "roomId": "b-0.08",
+          "lecturer": {
+            "id": "vogt",
+            "name": "Dr. Lena Vogt",
+            "shortName": "Vogt"
+          },
+          "cohort": {
+            "id": "inf1",
+            "program": {
+              "id": "inf",
+              "name": "Informatik B.Sc.",
+              "abbreviation": "INF"
+            },
+            "semester": 1
+          },
+          "conflicts": []
+        },
+        {
+          "eventId": "e21",
+          "title": "Programmierung",
+          "type": "exercise",
+          "day": 1,
+          "slot": 3,
+          "roomId": "b-0.09",
+          "lecturer": {
+            "id": "vogt",
+            "name": "Dr. Lena Vogt",
+            "shortName": "Vogt"
+          },
+          "cohort": {
+            "id": "winf1",
+            "program": {
+              "id": "winf",
+              "name": "Wirtschaftsinformatik B.Sc.",
+              "abbreviation": "WINF"
+            },
+            "semester": 1
+          },
+          "conflicts": []
+        }
+      ],
+      "unavailable": []
+    },
+    "GET /lecturers/becker/schedule?termId=ws2026": {
+      "entries": [
+        {
+          "eventId": "e1",
+          "title": "Algorithmen und Datenstrukturen",
+          "type": "lecture",
+          "day": 0,
+          "slot": 1,
+          "roomId": "a-1.02",
+          "lecturer": {
+            "id": "becker",
+            "name": "Prof. Dr. Anna Becker",
+            "shortName": "Becker"
+          },
+          "cohort": {
+            "id": "inf3",
+            "program": {
+              "id": "inf",
+              "name": "Informatik B.Sc.",
+              "abbreviation": "INF"
+            },
+            "semester": 3
+          },
+          "conflicts": []
+        },
+        {
+          "eventId": "e10",
+          "title": "Einführung in die Programmierung",
+          "type": "lecture",
+          "day": 0,
+          "slot": 0,
+          "roomId": "c-0.01",
+          "lecturer": {
+            "id": "becker",
+            "name": "Prof. Dr. Anna Becker",
+            "shortName": "Becker"
+          },
+          "cohort": {
+            "id": "inf1",
+            "program": {
+              "id": "inf",
+              "name": "Informatik B.Sc.",
+              "abbreviation": "INF"
+            },
+            "semester": 1
+          },
+          "conflicts": []
+        }
+      ],
+      "unavailable": [
+        {
+          "day": 4,
+          "slot": 3
+        },
+        {
+          "day": 4,
+          "slot": 4
+        },
+        {
+          "day": 4,
+          "slot": 5
+        }
+      ]
+    },
+    "GET /cohorts/inf3/schedule?termId=ws2026": {
+      "entries": [
+        {
+          "eventId": "e1",
+          "title": "Algorithmen und Datenstrukturen",
+          "type": "lecture",
+          "day": 0,
+          "slot": 1,
+          "roomId": "a-1.02",
+          "lecturer": {
+            "id": "becker",
+            "name": "Prof. Dr. Anna Becker",
+            "shortName": "Becker"
+          },
+          "cohort": {
+            "id": "inf3",
+            "program": {
+              "id": "inf",
+              "name": "Informatik B.Sc.",
+              "abbreviation": "INF"
+            },
+            "semester": 3
+          },
+          "conflicts": []
+        },
+        {
+          "eventId": "e2",
+          "title": "Algorithmen und Datenstrukturen",
+          "type": "exercise",
+          "day": 2,
+          "slot": 3,
+          "roomId": "a-2.14",
+          "lecturer": {
+            "id": "vogt",
+            "name": "Dr. Lena Vogt",
+            "shortName": "Vogt"
+          },
+          "cohort": {
+            "id": "inf3",
+            "program": {
+              "id": "inf",
+              "name": "Informatik B.Sc.",
+              "abbreviation": "INF"
+            },
+            "semester": 3
+          },
+          "conflicts": []
+        },
+        {
+          "eventId": "e3",
+          "title": "Datenbanksysteme",
+          "type": "lecture",
+          "day": 1,
+          "slot": 1,
+          "roomId": "a-1.02",
+          "lecturer": {
+            "id": "hartmann",
+            "name": "Prof. Dr. Jonas Hartmann",
+            "shortName": "Hartmann"
+          },
+          "cohort": {
+            "id": "inf3",
+            "program": {
+              "id": "inf",
+              "name": "Informatik B.Sc.",
+              "abbreviation": "INF"
+            },
+            "semester": 3
+          },
+          "conflicts": []
+        },
+        {
+          "eventId": "e6",
+          "title": "Rechnernetze",
+          "type": "lecture",
+          "day": 3,
+          "slot": 0,
+          "roomId": "a-1.01",
+          "lecturer": {
+            "id": "krueger",
+            "name": "Prof. Dr. Thomas Krüger",
+            "shortName": "Krüger"
+          },
+          "cohort": {
+            "id": "inf3",
+            "program": {
+              "id": "inf",
+              "name": "Informatik B.Sc.",
+              "abbreviation": "INF"
+            },
+            "semester": 3
+          },
+          "conflicts": []
+        },
+        {
+          "eventId": "e8",
+          "title": "Theoretische Informatik",
+          "type": "lecture",
+          "day": 3,
+          "slot": 2,
+          "roomId": "a-1.02",
+          "lecturer": {
+            "id": "wolf",
+            "name": "Prof. Dr. Stefan Wolf",
+            "shortName": "Wolf"
+          },
+          "cohort": {
+            "id": "inf3",
+            "program": {
+              "id": "inf",
+              "name": "Informatik B.Sc.",
+              "abbreviation": "INF"
+            },
+            "semester": 3
+          },
+          "conflicts": [
+            {
+              "code": "LECTURER_UNAVAILABLE",
+              "message": "Wolf ist Donnerstag 11:30–13:00 nicht verfügbar",
+              "relatedEventId": null
+            }
+          ]
+        }
+      ]
+    },
+    "POST /placement-check {\"eventId\":\"e4\",\"termId\":\"ws2026\"}": [
+      {
+        "day": 0,
+        "slot": 0,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 0,
+        "slot": 1,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": [
+          {
+            "code": "COHORT_OVERLAP",
+            "message": "Überschneidung mit „Algorithmen und Datenstrukturen“ im selben Semester",
+            "relatedEventId": "e1"
+          }
+        ]
+      },
+      {
+        "day": 0,
+        "slot": 2,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 0,
+        "slot": 3,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 0,
+        "slot": 4,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 0,
+        "slot": 5,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 1,
+        "slot": 0,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 1,
+        "slot": 1,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": [
+          {
+            "code": "COHORT_OVERLAP",
+            "message": "Überschneidung mit „Datenbanksysteme“ im selben Semester",
+            "relatedEventId": "e3"
+          }
+        ]
+      },
+      {
+        "day": 1,
+        "slot": 2,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 1,
+        "slot": 3,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": [
+          {
+            "code": "LECTURER_DOUBLE_BOOKED",
+            "message": "Vogt hält zeitgleich „Programmierung“ (Ü)",
+            "relatedEventId": "e21"
+          }
+        ]
+      },
+      {
+        "day": 1,
+        "slot": 4,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 1,
+        "slot": 5,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 2,
+        "slot": 0,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 2,
+        "slot": 1,
+        "suggestedRoomId": "a-2.14",
+        "conflicts": [
+          {
+            "code": "LECTURER_DOUBLE_BOOKED",
+            "message": "Vogt hält zeitgleich „Programmierung“ (Ü)",
+            "relatedEventId": "e12"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "slot": 2,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 2,
+        "slot": 3,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": [
+          {
+            "code": "LECTURER_DOUBLE_BOOKED",
+            "message": "Vogt hält zeitgleich „Algorithmen und Datenstrukturen“ (Ü)",
+            "relatedEventId": "e2"
+          },
+          {
+            "code": "COHORT_OVERLAP",
+            "message": "Überschneidung mit „Algorithmen und Datenstrukturen“ im selben Semester",
+            "relatedEventId": "e2"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "slot": 4,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 2,
+        "slot": 5,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 3,
+        "slot": 0,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": [
+          {
+            "code": "COHORT_OVERLAP",
+            "message": "Überschneidung mit „Rechnernetze“ im selben Semester",
+            "relatedEventId": "e6"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "slot": 1,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 3,
+        "slot": 2,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": [
+          {
+            "code": "COHORT_OVERLAP",
+            "message": "Überschneidung mit „Theoretische Informatik“ im selben Semester",
+            "relatedEventId": "e8"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "slot": 3,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 3,
+        "slot": 4,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 3,
+        "slot": 5,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 4,
+        "slot": 0,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 4,
+        "slot": 1,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 4,
+        "slot": 2,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 4,
+        "slot": 3,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 4,
+        "slot": 4,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      },
+      {
+        "day": 4,
+        "slot": 5,
+        "suggestedRoomId": "b-0.08",
+        "conflicts": []
+      }
+    ],
+    "GET /rooms/available?eventId=e4&day=0&slot=1": [
+      {
+        "id": "c-0.01",
+        "name": "C 0.01",
+        "building": "C",
+        "type": "lecture_hall",
+        "capacity": 400,
+        "equipment": [
+          "Beamer",
+          "Mikrofon",
+          "Aufzeichnung"
+        ],
+        "usedSlots": 3,
+        "totalSlots": 30,
+        "status": "free"
+      },
+      {
+        "id": "a-1.01",
+        "name": "A 1.01",
+        "building": "A",
+        "type": "lecture_hall",
+        "capacity": 250,
+        "equipment": [
+          "Beamer",
+          "Mikrofon"
+        ],
+        "usedSlots": 2,
+        "totalSlots": 30,
+        "status": "free"
+      },
+      {
+        "id": "a-1.02",
+        "name": "A 1.02",
+        "building": "A",
+        "type": "lecture_hall",
+        "capacity": 150,
+        "equipment": [
+          "Beamer",
+          "Mikrofon"
+        ],
+        "usedSlots": 5,
+        "totalSlots": 30,
+        "status": "occupied"
+      },
+      {
+        "id": "c-1.10",
+        "name": "C 1.10",
+        "building": "C",
+        "type": "lecture_hall",
+        "capacity": 120,
+        "equipment": [
+          "Beamer",
+          "Mikrofon",
+          "Aufzeichnung"
+        ],
+        "usedSlots": 1,
+        "totalSlots": 30,
+        "status": "free"
+      },
+      {
+        "id": "c-3.01",
+        "name": "C 3.01",
+        "building": "C",
+        "type": "seminar_room",
+        "capacity": 60,
+        "equipment": [
+          "Beamer",
+          "Mikrofon"
+        ],
+        "usedSlots": 2,
+        "totalSlots": 30,
+        "status": "free"
+      },
+      {
+        "id": "c-3.02",
+        "name": "C 3.02",
+        "building": "C",
+        "type": "seminar_room",
+        "capacity": 45,
+        "equipment": [
+          "Beamer"
+        ],
+        "usedSlots": 1,
+        "totalSlots": 30,
+        "status": "free"
+      },
+      {
+        "id": "a-2.14",
+        "name": "A 2.14",
+        "building": "A",
+        "type": "seminar_room",
+        "capacity": 40,
+        "equipment": [
+          "Beamer",
+          "Whiteboard"
+        ],
+        "usedSlots": 1,
+        "totalSlots": 30,
+        "status": "free"
+      },
+      {
+        "id": "a-2.15",
+        "name": "A 2.15",
+        "building": "A",
+        "type": "seminar_room",
+        "capacity": 30,
+        "equipment": [
+          "Display",
+          "Whiteboard"
+        ],
+        "usedSlots": 0,
+        "totalSlots": 30,
+        "status": "too_small"
+      },
+      {
+        "id": "a-2.16",
+        "name": "A 2.16",
+        "building": "A",
+        "type": "seminar_room",
+        "capacity": 24,
+        "equipment": [
+          "Whiteboard"
+        ],
+        "usedSlots": 1,
+        "totalSlots": 30,
+        "status": "too_small"
+      },
+      {
+        "id": "b-0.08",
+        "name": "B 0.08",
+        "building": "B",
+        "type": "pc_pool",
+        "capacity": 36,
+        "equipment": [
+          "36 PCs",
+          "Beamer"
+        ],
+        "usedSlots": 1,
+        "totalSlots": 30,
+        "status": "free"
+      },
+      {
+        "id": "b-0.09",
+        "name": "B 0.09",
+        "building": "B",
+        "type": "pc_pool",
+        "capacity": 24,
+        "equipment": [
+          "24 PCs",
+          "Display"
+        ],
+        "usedSlots": 1,
+        "totalSlots": 30,
+        "status": "too_small"
+      },
+      {
+        "id": "b-1.20",
+        "name": "B 1.20",
+        "building": "B",
+        "type": "lab",
+        "capacity": 20,
+        "equipment": [
+          "Netzwerklabor"
+        ],
+        "usedSlots": 1,
+        "totalSlots": 30,
+        "status": "too_small"
+      },
+      {
+        "id": "b-1.21",
+        "name": "B 1.21",
+        "building": "B",
+        "type": "lab",
+        "capacity": 16,
+        "equipment": [
+          "Elektroniklabor"
+        ],
+        "usedSlots": 1,
+        "totalSlots": 30,
+        "status": "too_small"
+      }
+    ]
+  }
+}
